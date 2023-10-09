@@ -1,11 +1,27 @@
-# Mr Encryptor
-This encryptor makes your API data private and secure. Block all 3rd party requests to API and keep all data safe.
+<p align="center">
+  <a href="#">
+    <img alt="Mr Encryptor" src="https://tools.mr999plus.site/count/" height="150">
+  </a>
+</p>
 
 
-## Authors
-- [@Samiul Alim](https://t.me/samiulalim1230)
+<h1 align="center">
+    Mr Encryptor
+</h1>
+<p align="center">
+  This encryptor makes your API data private and secure. Block all 3rd party requests to API and keep all data safe.
+</p>
 
+<h1 align="center">
+  Authors
+</h1>
+<a href="https://t.me/samiulalim1230">
+    @Samiul Alim
+</a>
 
-## Download 
-<a href="https://github.com/samiulalim1/mr-encryptor/raw/main/mr.encryptor.zip">DOWNLOAD NOW</a><br>
-<b>Note: Unzip the file after download then upload to server.</b>
+<h1 align="center">
+  Download
+</h1>
+<a href="https://github.com/samiulalim1/mr-encryptor/raw/main/mr.encryptor.zip">
+    DOWNLOAD NOW
+</a>
