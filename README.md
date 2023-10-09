@@ -73,7 +73,7 @@ alert(data); //data => Hello World
 ```
 
 ### Javascript full Demo
-<p>You have to place an external script reference for <b>mr.encryptor.min.js</b> in <b><head></b>.</p>
+<p>You have to place an external script reference for <b>mr.encryptor.min.js</b> in <b> &lt;head&gt;</b>.</p>
 ```html
 <script src="mr.encryptor.min.js"></script>
 ```
