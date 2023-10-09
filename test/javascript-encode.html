@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Use of MrEncode in javascript</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<!---include mr.encryptor.min.js--->
+	<script src="../src/mr.encryptor.min.js"></script>
+</head>
+<body>
+	<script>
+		//string which you want to encode 
+		var string = 'Hello World';
+		//output result emoji/string
+		var emoji = false;
+		//encode mode > 0
+		var mode = 3;
+		//encryption
+		var data = MrEncode(string, emoji, mode);
+		//output
+		alert(data); //data => Y8U14VIBUtX71VHPExCbCcX1NvzbC1U1N1gt53QKg=hJif0=N/Xc5tTTCyz1QxkO
+	</script>
+</body>
+</html>
