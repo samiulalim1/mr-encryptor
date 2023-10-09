@@ -1,6 +1,6 @@
 <?php
 //include mr.encryptor.min.php
-include 'mr.encryptor.min.php';
+include '../src/mr.encryptor.min.php';
 
 //use of MrEncode in php
 //string which you want to encode 
@@ -13,6 +13,6 @@ $mode = 3;
 $data = MrEncode($string, $emoji, $mode);
 
 //output
-echo $data; // data => Y8U14VIBUtX71VHPExCbCcX1NvzbC1U1N1gt53QKg=hJif0=N/Xc5tTTCyz1QxkO
+echo $data; //data => Y8U14VIBUtX71VHPExCbCcX1NvzbC1U1N1gt53QKg=hJif0=N/Xc5tTTCyz1QxkO
 
 ?>
