@@ -81,6 +81,7 @@ alert(data); //data => Hello World
 
 <p>Now you are ready for using <b>mr.encryptor.min.js</b>.</p>
 <p><b>An Encode Demo:</b></p>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -109,6 +110,7 @@ alert(data); //data => Hello World
 ```
 
 <p><b>A Decode Demo:</b></p>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
