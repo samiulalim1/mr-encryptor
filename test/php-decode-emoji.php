@@ -1,6 +1,6 @@
 <?php
 //include mr.encryptor.min.php
-include 'mr.encryptor.min.php';
+include '../src/mr.encryptor.min.php';
 
 //use of MrDecode with Emoji decode in php
 //string/emoji which you want to decode 
