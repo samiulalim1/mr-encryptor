@@ -2,7 +2,7 @@
 //include mr.encryptor.min.php
 include '../src/mr.encryptor.min.php';
 
-//use of MrEncode wirh Emoji encode in php
+//use of MrEncode with Emoji encode in php
 //string which you want to encode 
 $string = 'Hello World';
 //output result emoji/string
