@@ -81,7 +81,6 @@ alert(data); //data => Hello World
 
 <p>Now you are ready for using <b>mr.encryptor.min.js</b>.</p>
 <p><b>An Encode Demo:</b></p>
-
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -90,7 +89,7 @@ alert(data); //data => Hello World
 	<title>Use of MrEncode in javascript</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<!---include mr.encryptor.min.js--->
-	<script src="../src/mr.encryptor.min.js"></script>
+	<script src="mr.encryptor.min.js"></script>
 </head>
 <body>
 	<script>
@@ -109,3 +108,30 @@ alert(data); //data => Hello World
 </html>
 ```
 
+<p><b>A Decode Demo:</b></p>
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Use of MrDecode in javascript</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<!---include mr.encryptor.min.js--->
+	<script src="mr.encryptor.min.js"></script>
+</head>
+<body>
+	<script>
+		//string/emoji which you want to decode 
+		var string = 'Y8U14VIBUtX71VHPExCbCcX1NvzbC1U1N1gt53QKg=hJif0=N/Xc5tTTCyz1QxkO';
+		//encode result emoji/string
+		var emoji = false;
+		//decode mode > 0, use the encode mode 
+		var mode = 3;
+		//decryption
+		var data = MrDecode(string, emoji, mode);
+		//output
+		alert(data); //data => Hello World
+	</script>
+</body>
+</html>
+```
