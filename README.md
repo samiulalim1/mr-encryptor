@@ -235,4 +235,4 @@ alert(data); //data => false
 ```
 
 ## About
-<p>This tool encrypts data using the domain name. If your domain name is <b>example.com</b> and you encrypt your data, it can only decrypt on <b>example.com</b>.You can use this tool to transfer your data from html to php for your api.</p>
+<p>This tool encrypts data using the domain name. If your domain name is <b>example.com</b> and you encrypt your data, it can only decrypt on <b>example.com</b>. You can use this tool to transfer your data from html to php for your api.</p>
