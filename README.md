@@ -143,7 +143,7 @@ alert(data); //data => Hello World
 ```php
 <?php
 //include mr.encryptor.min.php
-include '../src/mr.encryptor.min.php';
+include 'mr.encryptor.min.php';
 
 //use of MrEncode in php
 //string which you want to encode 
@@ -160,4 +160,68 @@ echo $data; //data => Y8U14VIBUtX71VHPExCbCcX1NvzbC1U1N1gt53QKg=hJif0=N/Xc5tTTCy
 
 ?>
 ```
+### PHP Encode Emoji
+```php
+<?php
+//include mr.encryptor.min.php
+include 'mr.encryptor.min.php';
 
+//use of MrEncode with Emoji encode in php
+//string which you want to encode 
+$string = 'Hello World';
+//output result emoji/string
+$emoji = true;
+//encode mode > 0
+$mode = 3;
+//encryption
+$data = MrEncode($string, $emoji, $mode);
+
+//output
+echo $data; //data => 🍀😓🐻🍎👌🐶🔥😂🐻💣🐟😉🍎🐶🍻⚽😱💘😝💩😝🍸🐟🍎💄🧐👊💩😝🍎🐻🍎💄🍎🎉😂🐩🚗🙌👠🎾🚗☀🌈💩👠🎾👂🤪👠🐻⚽💩🚗🐟👿😝💜👊🍎🎾💘🏈🎀
+
+?>
+```
+
+### PHP Decode
+```php
+<?php
+//include mr.encryptor.min.php
+include 'mr.encryptor.min.php';
+
+//use of MrDecode in php
+//string/emoji which you want to decode 
+$string = 'Y8U14VIBUtX71VHPExCbCcX1NvzbC1U1N1gt53QKg=hJif0=N/Xc5tTTCyz1QxkO';
+//encode result emoji/string
+$emoji = false;
+//decode mode > 0, use the encode mode 
+$mode = 3;
+//encryption
+$data = MrDecode($string, $emoji, $mode);
+
+//output
+echo $data; //data => Hello World
+
+?>
+```
+
+### PHP Decode Emoji
+```php
+<?php
+//include mr.encryptor.min.php
+include 'mr.encryptor.min.php';
+
+//use of MrDecode with Emoji decode in php
+//string/emoji which you want to decode 
+$string = '🍀😓🐻🍎👌🐶🔥😂🐻💣🐟😉🍎🐶🍻⚽😱💘😝💩😝🍸🐟🍎💄🧐👊💩😝🍎🐻🍎💄🍎🎉😂🐩🚗🙌👠🎾🚗☀🌈💩👠🎾👂🤪👠🐻⚽💩🚗🐟👿😝💜👊🍎🎾💘🏈🎀';
+//encode result emoji/string
+$emoji = true;
+//decode mode > 0, use the encode mode 
+$mode = 3;
+//decryption
+$data = MrDecode($string, $emoji, $mode);
+
+//output
+echo $data; //data => Hello World
+
+?>
+```
