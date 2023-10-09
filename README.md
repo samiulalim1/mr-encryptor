@@ -228,7 +228,7 @@ echo $data; //data => Hello World
 
 ### Decode Error
 ```js
-//Return false if code cannot be decoded
+//Return false if string cannot be decoded
 var data = MrDecode('abc', true, 9);
 //output
 alert(data); //data => false
