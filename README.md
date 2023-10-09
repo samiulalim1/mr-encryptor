@@ -15,8 +15,8 @@
 
 
 ## Documentation
-### Javascript Encode
 
+### Javascript Encode
 ```js
 //string which you want to encode 
 var string = 'Hello World';
@@ -28,4 +28,46 @@ var mode = 3;
 var data = MrEncode(string, emoji, mode);
 //output
 alert(data); //data => Y8U14VIBUtX71VHPExCbCcX1NvzbC1U1N1gt53QKg=hJif0=N/Xc5tTTCyz1QxkO
+```
+
+### Javascript Encode Emoji
+```js
+//string which you want to encode 
+var string = 'Hello World';
+//output result emoji/string
+var emoji = true;
+//encode mode > 0
+var mode = 3;
+//encryption
+var data = MrEncode(string, emoji, mode);
+//output
+alert(data); //data => 🍀😓🐻🍎👌🐶🔥😂🐻💣🐟😉🍎🐶🍻⚽😱💘😝💩😝🍸🐟🍎💄🧐👊💩😝🍎🐻🍎💄🍎🎉😂🐩🚗🙌👠🎾🚗☀🌈💩👠🎾👂🤪👠🐻⚽💩🚗🐟👿😝💜👊🍎🎾💘🏈🎀
+```
+
+### Javascript Decode
+```js
+//string/emoji which you want to decode 
+var string = 'Y8U14VIBUtX71VHPExCbCcX1NvzbC1U1N1gt53QKg=hJif0=N/Xc5tTTCyz1QxkO';
+//encode result emoji/string
+var emoji = false;
+//decode mode > 0, use the encode mode 
+var mode = 3;
+//decryption
+var data = MrDecode(string, emoji, mode);
+//output
+alert(data); //data => Hello World
+```
+
+### Javascript Decode Emoji
+```js
+//string/emoji which you want to decode 
+var string = '🍀😓🐻🍎👌🐶🔥😂🐻💣🐟😉🍎🐶🍻⚽😱💘😝💩😝🍸🐟🍎💄🧐👊💩😝🍎🐻🍎💄🍎🎉😂🐩🚗🙌👠🎾🚗☀🌈💩👠🎾👂🤪👠🐻⚽💩🚗🐟👿😝💜👊🍎🎾💘🏈🎀';
+//encode result emoji/string
+var emoji = true;
+//decode mode > 0, use the encode mode 
+var mode = 3;
+//decryption
+var data = MrDecode(string, emoji, mode);
+//output
+alert(data); //data => Hello World
 ```
