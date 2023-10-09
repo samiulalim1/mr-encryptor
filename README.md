@@ -79,7 +79,7 @@ alert(data); //data => Hello World
 <script src="mr.encryptor.min.js"></script>
 ```
 
-<p>Now you are ready for using <b>mr.encryptor.min.js</b>.</p>
+<p>Now you are ready for using <b>Mr Encryptor</b>.</p>
 <p><b>An Encode Demo:</b></p>
 
 ```html
@@ -137,3 +137,27 @@ alert(data); //data => Hello World
 </body>
 </html>
 ```
+
+
+### PHP Encode
+```php
+<?php
+//include mr.encryptor.min.php
+include '../src/mr.encryptor.min.php';
+
+//use of MrEncode in php
+//string which you want to encode 
+$string = 'Hello World';
+//output result emoji/string
+$emoji = false;
+//encode mode > 0
+$mode = 3;
+//encryption
+$data = MrEncode($string, $emoji, $mode);
+
+//output
+echo $data; //data => Y8U14VIBUtX71VHPExCbCcX1NvzbC1U1N1gt53QKg=hJif0=N/Xc5tTTCyz1QxkO
+
+?>
+```
+
