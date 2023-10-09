@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Use of MrDecode with Emoji decode in javascript</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<!---include mr.encryptor.min.js--->
+	<script src="../src/mr.encryptor.min.js"></script>
+</head>
+<body>
+	<script>
+		//string/emoji which you want to decode 
+		var string = '🍀😓🐻🍎👌🐶🔥😂🐻💣🐟😉🍎🐶🍻⚽😱💘😝💩😝🍸🐟🍎💄🧐👊💩😝🍎🐻🍎💄🍎🎉😂🐩🚗🙌👠🎾🚗☀🌈💩👠🎾👂🤪👠🐻⚽💩🚗🐟👿😝💜👊🍎🎾💘🏈🎀';
+		//encode result emoji/string
+		var emoji = true;
+		//decode mode > 0, use the encode mode 
+		var mode = 3;
+		//encryption
+		var data = MrDecode(string, emoji, mode);
+		//output
+		alert(data); //data => Hello World
+	</script>
+</body>
+</html>
