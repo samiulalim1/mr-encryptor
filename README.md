@@ -73,6 +73,14 @@ alert(data); //data => Hello World
 ```
 
 ### Javascript full Demo
+<p>You have to place an external script reference for <b>mr.encryptor.min.js</b> in <b> &lt;head&gt;</b>.</p>
+
+```html
+<script src="mr.encryptor.min.js"></script>
+```
+
+<p>Now you are ready for using <b>mr.encryptor.min.js</b>.</p>
+<p><b>An Encode Demo:</b></p>
 
 ```html
 <!DOCTYPE html>
