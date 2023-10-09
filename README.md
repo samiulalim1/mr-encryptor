@@ -1,6 +1,6 @@
 <p align="center">
   <a href="#">
-    <img alt="Mr Encryptor" src="https://api.mr999plus.site/image/neko/Mr%20Encryptor" height="150">
+    <img alt="Mr Encryptor" src="https://api.mr999plus.site/image/neko/Mr%20Encryptor" style="max-height:150px;">
   </a>
 </p>
 
